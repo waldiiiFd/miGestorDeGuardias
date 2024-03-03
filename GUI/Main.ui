@@ -1,0 +1,1390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Main</class>
+ <widget class="QMainWindow" name="Main">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1622</width>
+    <height>1395</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="font">
+   <font>
+    <family>Arial</family>
+    <pointsize>14</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Gestión de Guardias</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(213, 227, 234);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>1060</x>
+      <y>200</y>
+      <width>551</width>
+      <height>461</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../images/main.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>80</y>
+      <width>291</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Sylfaen</family>
+      <pointsize>60</pointsize>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>SIGENU</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>540</y>
+      <width>241</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Sylfaen</family>
+      <pointsize>60</pointsize>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>CUJAE</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>630</x>
+      <y>210</y>
+      <width>371</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Sylfaen</family>
+      <pointsize>48</pointsize>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>INGENIERÍA </string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>290</y>
+      <width>501</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Sylfaen</family>
+      <pointsize>48</pointsize>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>INFORMÁTICA</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>730</x>
+      <y>30</y>
+      <width>311</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Sylfaen</family>
+      <pointsize>48</pointsize>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>GUARDIA</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_9">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>350</y>
+      <width>511</width>
+      <height>181</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Sylfaen</family>
+      <pointsize>26</pointsize>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>System.out.println(&quot;Hello world&quot;);</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_10">
+    <property name="geometry">
+     <rect>
+      <x>790</x>
+      <y>90</y>
+      <width>701</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Sylfaen</family>
+      <pointsize>48</pointsize>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>OBRERA-ESTUDIANTIL</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_11">
+    <property name="geometry">
+     <rect>
+      <x>870</x>
+      <y>450</y>
+      <width>131</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Sylfaen</family>
+      <pointsize>22</pointsize>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>01001001</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_12">
+    <property name="geometry">
+     <rect>
+      <x>1000</x>
+      <y>450</y>
+      <width>131</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Sylfaen</family>
+      <pointsize>22</pointsize>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>00100000 </string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_13">
+    <property name="geometry">
+     <rect>
+      <x>940</x>
+      <y>500</y>
+      <width>131</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Sylfaen</family>
+      <pointsize>22</pointsize>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>01101100 </string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_14">
+    <property name="geometry">
+     <rect>
+      <x>1080</x>
+      <y>500</y>
+      <width>131</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Sylfaen</family>
+      <pointsize>22</pointsize>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>01101111 </string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_15">
+    <property name="geometry">
+     <rect>
+      <x>870</x>
+      <y>550</y>
+      <width>131</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Sylfaen</family>
+      <pointsize>22</pointsize>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>01110110 </string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_16">
+    <property name="geometry">
+     <rect>
+      <x>1000</x>
+      <y>550</y>
+      <width>131</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Sylfaen</family>
+      <pointsize>22</pointsize>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>01100101</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_17">
+    <property name="geometry">
+     <rect>
+      <x>970</x>
+      <y>600</y>
+      <width>131</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Sylfaen</family>
+      <pointsize>22</pointsize>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>00100000 </string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_18">
+    <property name="geometry">
+     <rect>
+      <x>1110</x>
+      <y>600</y>
+      <width>131</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Sylfaen</family>
+      <pointsize>22</pointsize>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>01100011 </string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_19">
+    <property name="geometry">
+     <rect>
+      <x>1180</x>
+      <y>650</y>
+      <width>131</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Sylfaen</family>
+      <pointsize>22</pointsize>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>01100100 </string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_20">
+    <property name="geometry">
+     <rect>
+      <x>1230</x>
+      <y>700</y>
+      <width>131</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Sylfaen</family>
+      <pointsize>22</pointsize>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>01101110 </string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_21">
+    <property name="geometry">
+     <rect>
+      <x>1090</x>
+      <y>700</y>
+      <width>131</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Sylfaen</family>
+      <pointsize>22</pointsize>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>01101001 </string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_22">
+    <property name="geometry">
+     <rect>
+      <x>1040</x>
+      <y>650</y>
+      <width>131</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Sylfaen</family>
+      <pointsize>22</pointsize>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>01101111 </string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_23">
+    <property name="geometry">
+     <rect>
+      <x>1370</x>
+      <y>700</y>
+      <width>131</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Sylfaen</family>
+      <pointsize>22</pointsize>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>01100111 </string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_24">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>230</y>
+      <width>131</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Sylfaen</family>
+      <pointsize>36</pointsize>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>JAVA</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_25">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>330</y>
+      <width>71</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Sylfaen</family>
+      <pointsize>26</pointsize>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>C++</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_26">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>220</y>
+      <width>121</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Sylfaen</family>
+      <pointsize>20</pointsize>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>PYTHON</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_27">
+    <property name="geometry">
+     <rect>
+      <x>670</x>
+      <y>510</y>
+      <width>121</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Sylfaen</family>
+      <pointsize>20</pointsize>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>SELECT</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_28">
+    <property name="geometry">
+     <rect>
+      <x>670</x>
+      <y>560</y>
+      <width>121</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Sylfaen</family>
+      <pointsize>20</pointsize>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>FROM</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_29">
+    <property name="geometry">
+     <rect>
+      <x>670</x>
+      <y>610</y>
+      <width>121</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Sylfaen</family>
+      <pointsize>20</pointsize>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>WHERE</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_30">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>650</y>
+      <width>211</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Sylfaen</family>
+      <pointsize>60</pointsize>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>CEIS</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_31">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>140</y>
+      <width>51</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Sylfaen</family>
+      <pointsize>22</pointsize>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>CSS</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1622</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuArchivo">
+    <property name="font">
+     <font>
+      <family>Segoe UI Black</family>
+      <pointsize>14</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="title">
+     <string>Usuario</string>
+    </property>
+    <addaction name="btnCrear_usuario"/>
+    <addaction name="btnEliminar_usuario"/>
+    <addaction name="btnActualizar_credenciales"/>
+   </widget>
+   <widget class="QMenu" name="menuEditar">
+    <property name="title">
+     <string>Descanso</string>
+    </property>
+    <addaction name="separator"/>
+    <addaction name="btnInsertar_dia"/>
+    <addaction name="btnInsertar_intervalo"/>
+    <addaction name="btnEliminar_dia"/>
+    <addaction name="btnEliminar_intervalo"/>
+    <addaction name="btn_descansoInfo"/>
+   </widget>
+   <widget class="QMenu" name="menuPersona">
+    <property name="font">
+     <font>
+      <family>Segoe UI Black</family>
+      <pointsize>14</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="title">
+     <string>Personas</string>
+    </property>
+    <widget class="QMenu" name="actionEstudiante_2">
+     <property name="font">
+      <font>
+       <family>Segoe UI Black</family>
+       <pointsize>14</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="title">
+      <string>Estudiantes</string>
+     </property>
+     <addaction name="btnInsertarEstudiante"/>
+     <addaction name="btnActualizarEstadoEstudiante"/>
+     <addaction name="btnGrupoEstudiante"/>
+     <addaction name="btnEliminarEstudiante"/>
+     <addaction name="btn_get_infoEstudiantes"/>
+    </widget>
+    <widget class="QMenu" name="actionTrabajadores_3">
+     <property name="font">
+      <font>
+       <family>Segoe UI Black</family>
+       <pointsize>14</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="title">
+      <string>Trabajadores</string>
+     </property>
+     <addaction name="btnInsertarTrabajador"/>
+     <addaction name="btnActualizarEstadoTrabajador"/>
+     <addaction name="btnEliminarTrabajador"/>
+     <addaction name="btn_get_infoTrabajadores"/>
+    </widget>
+    <addaction name="separator"/>
+    <addaction name="actionEstudiante_2"/>
+    <addaction name="actionTrabajadores_3"/>
+    <addaction name="btn_Buscar"/>
+   </widget>
+   <widget class="QMenu" name="menuHorarios">
+    <property name="title">
+     <string>Horarios</string>
+    </property>
+    <addaction name="actionInsertHorario"/>
+    <addaction name="actionDeleteHorario"/>
+    <addaction name="btnVerInfoHorarios"/>
+   </widget>
+   <widget class="QMenu" name="menuParejas">
+    <property name="font">
+     <font>
+      <family>Segoe UI Black</family>
+      <pointsize>14</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="title">
+     <string>Parejas</string>
+    </property>
+    <widget class="QMenu" name="menuA_adir_pareja">
+     <property name="title">
+      <string>Añadir pareja</string>
+     </property>
+     <addaction name="actionInsertDuoEstudiante"/>
+     <addaction name="actionInsertDuoTrabajador"/>
+    </widget>
+    <addaction name="menuA_adir_pareja"/>
+    <addaction name="actionDeletetDuo"/>
+    <addaction name="btnActualizarconsider"/>
+    <addaction name="btnGetInfoPareja"/>
+   </widget>
+   <widget class="QMenu" name="menuGuardia">
+    <property name="font">
+     <font>
+      <family>Segoe UI Black</family>
+      <pointsize>14</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="title">
+     <string>Guardia</string>
+    </property>
+    <widget class="QMenu" name="menuA_adir_guardia">
+     <property name="title">
+      <string>Añadir guardia</string>
+     </property>
+     <addaction name="actionManualmente"/>
+     <addaction name="actionAutomatica_para_estudiante"/>
+     <addaction name="actionAutomatica_para_trabajadores_2"/>
+    </widget>
+    <widget class="QMenu" name="menuVer_informaci_n">
+     <property name="title">
+      <string>Ver información</string>
+     </property>
+     <addaction name="actionAnteriores_guardias"/>
+     <addaction name="actionProximas_guardias"/>
+    </widget>
+    <widget class="QMenu" name="menuActualizar_guardia">
+     <property name="title">
+      <string>Actualizar guardia</string>
+     </property>
+     <addaction name="actionActualizarAsistencia"/>
+     <addaction name="actionActualizarParticipantes"/>
+    </widget>
+    <addaction name="menuA_adir_guardia"/>
+    <addaction name="menuActualizar_guardia"/>
+    <addaction name="actionEliminarGuardia"/>
+    <addaction name="menuVer_informaci_n"/>
+   </widget>
+   <addaction name="menuArchivo"/>
+   <addaction name="menuEditar"/>
+   <addaction name="menuPersona"/>
+   <addaction name="menuParejas"/>
+   <addaction name="menuHorarios"/>
+   <addaction name="menuGuardia"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionEstudiantes">
+   <property name="text">
+    <string>Estudiantes</string>
+   </property>
+  </action>
+  <action name="actionTrabajadores">
+   <property name="text">
+    <string>Trabajadores</string>
+   </property>
+  </action>
+  <action name="btnCrear_usuario">
+   <property name="text">
+    <string>Crear usuario</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI Black</family>
+     <pointsize>14</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+  </action>
+  <action name="btnEliminar_usuario">
+   <property name="text">
+    <string>Eliminar usuario</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI Black</family>
+     <pointsize>14</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+  </action>
+  <action name="btnActualizar_credenciales">
+   <property name="text">
+    <string>Actualizar credenciales de usuario</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI Black</family>
+     <pointsize>14</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+  </action>
+  <action name="actionD_a_nico">
+   <property name="text">
+    <string>Día </string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI Black</family>
+     <pointsize>14</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+  </action>
+  <action name="actionIntervalo">
+   <property name="text">
+    <string>Intervalo</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI Black</family>
+     <pointsize>14</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+  </action>
+  <action name="actionD_a">
+   <property name="text">
+    <string>Día</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI Black</family>
+     <pointsize>14</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+  </action>
+  <action name="actionIntervalo_2">
+   <property name="text">
+    <string>Intervalo</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI Black</family>
+     <pointsize>14</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+  </action>
+  <action name="btnInsertar_dia">
+   <property name="text">
+    <string>Añadir día</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI Black</family>
+     <pointsize>14</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+  </action>
+  <action name="btnInsertar_intervalo">
+   <property name="text">
+    <string>Añadir intervalo</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI Black</family>
+     <pointsize>14</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+  </action>
+  <action name="btnEliminar_dia">
+   <property name="text">
+    <string>Eliminar día</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI Black</family>
+     <pointsize>14</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+  </action>
+  <action name="btnEliminar_intervalo">
+   <property name="text">
+    <string>Eliminar intervalo</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI Black</family>
+     <pointsize>14</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+  </action>
+  <action name="btn_descansoInfo">
+   <property name="text">
+    <string>Ver información </string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI Black</family>
+     <pointsize>14</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+  </action>
+  <action name="actionA_adir_estudiante">
+   <property name="text">
+    <string>Añadir estudiante</string>
+   </property>
+  </action>
+  <action name="btnInsertarEstudiante">
+   <property name="text">
+    <string>Añadir estudiante</string>
+   </property>
+  </action>
+  <action name="btnActualizarEstadoEstudiante">
+   <property name="text">
+    <string>Actualizar estado</string>
+   </property>
+  </action>
+  <action name="btnEliminarEstudiante">
+   <property name="text">
+    <string>Eliminar estudiante</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI Black</family>
+     <pointsize>14</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+  </action>
+  <action name="actionBuscar_estudiante">
+   <property name="text">
+    <string>Buscar estudiante</string>
+   </property>
+  </action>
+  <action name="actionDatos">
+   <property name="text">
+    <string>Información de estudiantes</string>
+   </property>
+  </action>
+  <action name="btn_Buscar">
+   <property name="text">
+    <string>Buscar</string>
+   </property>
+  </action>
+  <action name="btnGrupoEstudiante">
+   <property name="text">
+    <string>Actualizar grupo</string>
+   </property>
+  </action>
+  <action name="btnInsertarTrabajador">
+   <property name="text">
+    <string>Añadir trabajador</string>
+   </property>
+  </action>
+  <action name="btnActualizarEstadoTrabajador">
+   <property name="text">
+    <string>Actualizar estado</string>
+   </property>
+  </action>
+  <action name="btnEliminarTrabajador">
+   <property name="text">
+    <string>Eliminar trabajador</string>
+   </property>
+  </action>
+  <action name="btn_get_infoTrabajadores">
+   <property name="text">
+    <string>Ver información</string>
+   </property>
+  </action>
+  <action name="xxx">
+   <property name="text">
+    <string>estudiante annadir</string>
+   </property>
+  </action>
+  <action name="xxx2">
+   <property name="text">
+    <string>xxx</string>
+   </property>
+  </action>
+  <action name="mipantalla">
+   <property name="text">
+    <string>pantalla</string>
+   </property>
+  </action>
+  <action name="actionEstudiantes_2">
+   <property name="text">
+    <string>Estudiantes</string>
+   </property>
+  </action>
+  <action name="actionProfesores">
+   <property name="text">
+    <string>Trabajadores</string>
+   </property>
+  </action>
+  <action name="btnEliminarPareja">
+   <property name="text">
+    <string>Eliminar pareja</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI Black</family>
+     <pointsize>14</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+  </action>
+  <action name="btnActualizarPareja">
+   <property name="text">
+    <string>Actualizar consideración</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI Black</family>
+     <pointsize>14</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+  </action>
+  <action name="actionPor_estado_de_la_persona">
+   <property name="text">
+    <string>No considerar parejas con miembros no aptos</string>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+  </action>
+  <action name="btnVerInfo">
+   <property name="text">
+    <string>Ver información</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI Black</family>
+     <pointsize>14</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+  </action>
+  <action name="actionInsertHorario">
+   <property name="text">
+    <string>Añadir horario</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI Black</family>
+     <pointsize>14</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+  </action>
+  <action name="actionDeleteHorario">
+   <property name="text">
+    <string>Eliminar horario</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI Black</family>
+     <pointsize>14</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+  </action>
+  <action name="btnVerInfoHorarios">
+   <property name="text">
+    <string>Ver información</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI Black</family>
+     <pointsize>14</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+  </action>
+  <action name="btn_get_infoEstudiantes">
+   <property name="text">
+    <string>Ver información</string>
+   </property>
+  </action>
+  <action name="actionInsertEstudiante">
+   <property name="text">
+    <string>Estudiante</string>
+   </property>
+  </action>
+  <action name="actionEstudiante">
+   <property name="text">
+    <string>Estudiante</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI Black</family>
+     <pointsize>14</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+  </action>
+  <action name="actionInsertEstudiante_2">
+   <property name="text">
+    <string>Estudiante</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI Black</family>
+     <pointsize>14</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+  </action>
+  <action name="actionInsertDuoEstudiante">
+   <property name="text">
+    <string>Estudiante</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI Black</family>
+     <pointsize>14</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+  </action>
+  <action name="actionInsertDuoTrabajador">
+   <property name="text">
+    <string>Trabajador</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI Black</family>
+     <pointsize>14</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+  </action>
+  <action name="actionDeletetDuo">
+   <property name="text">
+    <string>Eliminar pareja</string>
+   </property>
+  </action>
+  <action name="btnGetInfoPareja">
+   <property name="text">
+    <string>Ver información</string>
+   </property>
+  </action>
+  <action name="btnActualizarconsider">
+   <property name="text">
+    <string>Actualizar consideración</string>
+   </property>
+  </action>
+  <action name="actionAutomaticamente">
+   <property name="text">
+    <string>Automaticamente</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI Black</family>
+     <pointsize>14</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+  </action>
+  <action name="actionAutomaticamente_2">
+   <property name="text">
+    <string>Manualmente</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI Black</family>
+     <pointsize>14</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+  </action>
+  <action name="actionEliminar_guardia">
+   <property name="text">
+    <string>Eliminar guardia</string>
+   </property>
+  </action>
+  <action name="actionAnteriores_guardias">
+   <property name="text">
+    <string>Anteriores guardias</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI Black</family>
+     <pointsize>14</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+  </action>
+  <action name="actionProximas_guardias">
+   <property name="text">
+    <string>Proximas guardias</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI Black</family>
+     <pointsize>14</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+  </action>
+  <action name="actionActualizarAsistencia">
+   <property name="text">
+    <string>Actualizar asistencia</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI Black</family>
+     <pointsize>14</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+  </action>
+  <action name="actionActualizarParticipantes">
+   <property name="text">
+    <string>Cambiar participantes</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI Black</family>
+     <pointsize>14</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+  </action>
+  <action name="actionEliminarGuardia">
+   <property name="text">
+    <string>Eliminar guardia</string>
+   </property>
+  </action>
+  <action name="actionEstudiantes_3">
+   <property name="text">
+    <string>Estudiantes </string>
+   </property>
+  </action>
+  <action name="actionTrabajadores_2">
+   <property name="text">
+    <string>Estudiantes</string>
+   </property>
+  </action>
+  <action name="actionFemenino">
+   <property name="text">
+    <string>Femenino</string>
+   </property>
+  </action>
+  <action name="actionTrabajadores_4">
+   <property name="text">
+    <string>Trabajadores</string>
+   </property>
+  </action>
+  <action name="actionManualmente_2">
+   <property name="text">
+    <string>Manualmente</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI Black</family>
+     <pointsize>14</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+  </action>
+  <action name="actionEstudiantes_4">
+   <property name="text">
+    <string>Estudiantes</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI Black</family>
+     <pointsize>14</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+  </action>
+  <action name="actionTrabajadores_5">
+   <property name="text">
+    <string>Trabajadores</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI Black</family>
+     <pointsize>14</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+  </action>
+  <action name="actionEstudiantes_5">
+   <property name="text">
+    <string>Estudiantes</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI Black</family>
+     <pointsize>14</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+  </action>
+  <action name="actionTrabajadores_6">
+   <property name="text">
+    <string>Trabajadores</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI Black</family>
+     <pointsize>14</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+  </action>
+  <action name="actionManualmente">
+   <property name="text">
+    <string>Manualmente</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI Black</family>
+     <pointsize>14</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+  </action>
+  <action name="actionEstudiantes_6">
+   <property name="text">
+    <string>Estudiantes</string>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+     <italic>true</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+  </action>
+  <action name="actionTrabajadores_7">
+   <property name="text">
+    <string>Trabajadores</string>
+   </property>
+  </action>
+  <action name="actionAutomatica_para_estudiante">
+   <property name="text">
+    <string>Automática para estudiantes</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI Black</family>
+     <pointsize>14</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+  </action>
+  <action name="actionAutomatica_para_trabajadores_2">
+   <property name="text">
+    <string>Automática para trabajadores</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI Black</family>
+     <pointsize>14</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
