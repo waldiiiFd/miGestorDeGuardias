@@ -2,7 +2,7 @@ from datetime import datetime, timedelta
 from DAO.DayOfRestDAO import DayOfRestDAO
 from DAO.GuardshiftDAO import GuardshiftDAO
 from DAO.ScheduleDAO import ScheduleDAO
-
+'''
 start_date = datetime.strptime("2024-03-04", "%Y-%m-%d").date()
 end_date = datetime.strptime("2024-03-12", "%Y-%m-%d").date()
 
@@ -137,3 +137,4 @@ while current_date <= end_date:
     # Reiniciar el iterador lista_aux_iter2 antes de la próxima iteración si es necesario
     if current_date > end_date:
         lista_aux_iter2 = iter(list(parejasporplanificar))
+'''
